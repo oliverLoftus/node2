@@ -1,7 +1,7 @@
 const portfolioData = [
   {
     title: "Timetable",
-    image: "images/nix.png",
+    image: "images/timetable.jpg",
     description: "A brief description of Project One.",
     url: "projects/timetable/timetable_generator.html",
   },

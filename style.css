@@ -11,7 +11,7 @@ body {
 
 .portfolio {
   width: 100%;
-  max-width: 800px;
+  max-width: 450px;
   display: flex;
   flex-direction: column;
   gap: 20px;
