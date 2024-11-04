@@ -12,16 +12,16 @@ const portfolioData = [
     url: "projects/draw3d",
   },
   {
-    title: "Project Three",
-    image: "images/nix.png",
-    descriptionFile: "info/error.txt",
-    url: "project/",
+    title: "Star Map 3D",
+    image: "images/starmap3d.jpg",
+    descriptionFile: "info/starmap3d.txt",
+    url: "projects/starmap3d",
   },
   {
     title: "Project Four",
     image: "images/nix.png",
     descriptionFile: "info/error.txt",
-    url: "project/",
+    url: "projects/",
   },
   // Add more items here...
 ];
