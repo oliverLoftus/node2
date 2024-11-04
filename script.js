@@ -37,20 +37,24 @@ portfolioData.forEach((data) => {
   item.querySelector(".portfolio-thumbnail").alt = data.title;
   item.querySelector(".portfolio-title").textContent = data.title;
 
-  fetch(data.descriptionFile)
-    .then((response) => {
-      if (!response.ok) throw new Error("Description file not found");
-      return response.text();
-    })
-    .then((descriptionText) => {
-      item.querySelector(".portfolio-description").textContent =
-        descriptionText;
-    })
-    .catch((error) => {
-      console.error("Error loading description for", data.title, error);
-      item.querySelector(".portfolio-description").textContent =
-        "Description not available.";
-    });
+  const descriptionElement = item.querySelector(".portfolio-description");
+
+  if (data.descriptionFile) {
+    fetch(data.descriptionFile)
+      .then((response) => {
+        if (!response.ok) throw new Error("Description file not found");
+        return response.text();
+      })
+      .then((descriptionText) => {
+        descriptionElement.textContent = descriptionText;
+      })
+      .catch((error) => {
+        console.error("Error loading description for", data.title, error);
+        descriptionElement.textContent = "Description not available.";
+      });
+  } else {
+    descriptionElement.textContent = "Description not available.";
+  }
 
   portfolioContainer.appendChild(item);
 });
