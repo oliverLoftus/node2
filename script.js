@@ -2,26 +2,26 @@ const portfolioData = [
   {
     title: "Timetable",
     image: "images/timetable.jpg",
-    description: "A brief description of Project One.",
+    description: "info/timetable.txt",
     url: "projects/timetable/timetable_generator.html",
   },
   {
     title: "Project Two",
     image: "images/nix.png",
     description: "A brief description of Project Two.",
-    url: "https://link-to-project-two.com",
+    url: "info/error.txt",
   },
   {
     title: "Project Three",
     image: "images/nix.png",
     description: "A brief description of Project Three.",
-    url: "https://link-to-project-two.com",
+    url: "info/error.txt",
   },
   {
     title: "Project Four",
     image: "images/nix.png",
     description: "A brief description of Project Four.",
-    url: "https://link-to-project-two.com",
+    url: "info/error.txt",
   },
   // Add more items here...
 ];
