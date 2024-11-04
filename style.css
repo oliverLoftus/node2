@@ -5,20 +5,18 @@ body {
   margin: 0;
   padding: 20px;
   display: flex;
-  justify-content: center; /* Centers content vertically */
-  align-items: center; /* Centers content horizontally */
-  min-height: 100vh; /* Ensures full window height */
+  justify-content: center;
 }
 
 .portfolio {
   width: 100%;
-  max-width: 500px; /* Maximum width for the container */
-  min-width: 200px; /* Minimum width for the container */
+  max-width: 500px;
+  min-width: 200px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   align-items: center;
-  box-sizing: border-box; /* Ensures padding is included in max-width */
+  box-sizing: border-box;
 }
 
 .portfolio-item-link {
@@ -34,10 +32,10 @@ body {
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  width: 100%; /* Makes each item take up full width within container */
-  max-width: 500px; /* Maximum width */
-  min-width: 200px; /* Minimum width */
-  box-sizing: border-box; /* Include padding in width calculations */
+  width: 100%;
+  max-width: 500px;
+  min-width: 200px;
+  box-sizing: border-box;
 }
 
 .portfolio-thumbnail {

@@ -36,6 +36,21 @@ portfolioData.forEach((data) => {
   item.querySelector(".portfolio-thumbnail").src = data.image;
   item.querySelector(".portfolio-thumbnail").alt = data.title;
   item.querySelector(".portfolio-title").textContent = data.title;
-  item.querySelector(".portfolio-description").textContent = data.description;
+
+  fetch(data.descriptionFile)
+    .then((response) => {
+      if (!response.ok) throw new Error("Description file not found");
+      return response.text();
+    })
+    .then((descriptionText) => {
+      item.querySelector(".portfolio-description").textContent =
+        descriptionText;
+    })
+    .catch((error) => {
+      console.error("Error loading description for", data.title, error);
+      item.querySelector(".portfolio-description").textContent =
+        "Description not available.";
+    });
+
   portfolioContainer.appendChild(item);
 });
