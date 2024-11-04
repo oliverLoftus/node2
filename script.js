@@ -6,10 +6,10 @@ const portfolioData = [
     url: "projects/timetable/timetable_generator.html",
   },
   {
-    title: "Project Two",
+    title: "3D Engine",
     image: "images/nix.png",
-    descriptionFile: "info/error.txt",
-    url: "project/",
+    descriptionFile: "info/draw3d.txt",
+    url: "project/draw3d",
   },
   {
     title: "Project Three",
