@@ -8,20 +8,20 @@ const portfolioData = [
   {
     title: "Project Two",
     image: "images/nix.png",
-    descriptionFile: "A brief description of Project Two.",
-    url: "info/error.txt",
+    descriptionFile: "info/error.txt",
+    url: "project/",
   },
   {
     title: "Project Three",
     image: "images/nix.png",
-    descriptionFile: "A brief description of Project Three.",
-    url: "info/error.txt",
+    descriptionFile: "info/error.txt",
+    url: "project/",
   },
   {
     title: "Project Four",
     image: "images/nix.png",
-    descriptionFile: "A brief description of Project Four.",
-    url: "info/error.txt",
+    descriptionFile: "info/error.txt",
+    url: "project/",
   },
   // Add more items here...
 ];
