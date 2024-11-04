@@ -9,7 +9,7 @@ const portfolioData = [
     title: "3D Engine",
     image: "images/nix.png",
     descriptionFile: "info/draw3d.txt",
-    url: "project/draw3d",
+    url: "projects/draw3d",
   },
   {
     title: "Project Three",
