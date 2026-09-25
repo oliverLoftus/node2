@@ -3,25 +3,25 @@ const portfolioData = [
     title: "Timetable",
     image: "images/timetable.jpg",
     descriptionFile: "info/timetable.txt",
-    url: "projects/timetable/timetable_generator.html",
+    url: "/timetable/",
   },
   {
     title: "3D Engine",
     image: "images/draw3d.jpg",
     descriptionFile: "info/draw3d.txt",
-    url: "projects/draw3d",
+    url: "/draw3d/",
   },
   {
     title: "Star Map 3D",
     image: "images/starmap3d.jpg",
     descriptionFile: "info/starmap3d.txt",
-    url: "projects/starmap3d",
+    url: "/starmap3d/",
   },
   {
     title: "Pong",
     image: "images/pong.jpg",
     descriptionFile: "info/pong.txt",
-    url: "projects/pong",
+    url: "/pong2/",
   },
   // Add more items here...
 ];
